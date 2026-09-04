@@ -107,7 +107,7 @@ def get_page(url, params=None) -> str:
     return response.text
 
 
-def parse_price(price_tag) -> str | None:
+def parse_price(price_tag) -> int | None:
     """
     Convert price text such as '₹2,799' into 2799.
 
