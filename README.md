@@ -29,7 +29,7 @@ This repository contains solutions for the Affinity Answers Data Engineer Intern
 
 ## Video Demonstration
 
-YouTube video link: https://youtu.be/HP5OY65U7cs
+Demo video link: https://drive.google.com/file/d/1rgCpwu1J4ykt07jM7Wwgv4p_ENa0PqHn/view?usp=sharing
 
 The video demonstration will show the execution of:
 
