@@ -1,5 +1,15 @@
 #!/bin/bash
 
+#==============================================================================
+# Description:
+# Downloads and processes a CSV file from the provided URL. Validates the
+# expected columns, extracts Company Name, Headquarters Location, and Founded,
+# sorts the results by Founding Year, and displays them in a formatted table.
+#
+# Usage:
+#   ./script.sh <CSV_URL>
+#==============================================================================
+
 # Check that exactly one URL argument was provided
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <CSV_URL>"
