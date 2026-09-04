@@ -183,6 +183,14 @@ The script prints a table with:
 
 The rows are sorted by founding year in ascending order.
 
+If you get a `cannot execute: required file not found` error, the script may have Windows-style CRLF line endings. Convert it to Unix-style LF line endings with:
+
+```bash
+sed -i 's/\r$//' unix_shell_scripting/csv_parser.sh
+```
+
+Then run the script again.
+
 ## Notes
 
 - The Python scraper depends on the current HTML structure of MDComputers. If the site changes its markup, selectors in `python/scraper.py` may need to be updated.
