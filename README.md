@@ -1,4 +1,4 @@
-# Affinity Answers Data Engineer Assignment
+# Affinity Answers Data Engineer Intern Assignment
 
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white)
