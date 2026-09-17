@@ -18,6 +18,7 @@ dist/
 *.json
 *.csv
 *.tsv
+*.html
 
 # Environment and local config files
 .env
